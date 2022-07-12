@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./forgotpassword.css">
+<style>
+        #continue:hover {
+        background-color: rgb(102, 131, 102);
+      }
+  </style>
+</head>
+<body>
+    <main class="forgotpassword" id="forgotpassword">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.01bQlL7FMpc4aVcjOC29AQHaE8&pid=Api&P=0&w=271&h=181" alt="image">
+        <h1>New Password</h1> 
+
+        <div id="error" style="color:red;"></div>
+        <form class="contentcontainer" action="personalized.php" method="GET" id="newpasswordlogin">
+
+            <label for="email">Email: </label>
+            <input id="email" name="email" placeholder="emailaddress" type="email" required/>
+            
+            <label for="phonenumber">Phone Number: </label>
+            <input tel="mobile" name="telephone" placeholder="mobile" type="number" required/>
+
+            <label for="newpassword">New Password: </label>
+            <input type="password" id="password" name="newpassword" placeholder="newpassword" text="text"/>
+            Retype-Password: <input type="password" id="confirm-password" name="confirmpassword" placeholder="retype-password"/> 
+            <br/>
+            <div class="buttoncontainer"> <a href="./personalized.php"></a>
+            <button type="submit" id="continue"> <strong>Continue </strong></button>
+            </div>
+        </form>
+    
+    </main>
+
+    <script src="./forgotpass.js"></script>    
+</body>
+</html>

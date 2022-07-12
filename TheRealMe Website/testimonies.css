@@ -1,0 +1,39 @@
+html {
+    background-color:  rgb(199, 199, 199);
+}
+table {
+    width:400px;
+    text-align: center;
+}
+table, th, td {
+    border:1px solid #000;
+    border-collapse: collapse;
+}
+th, td {
+    padding:10px;
+}
+tr:nth-child(1) {
+    background-color:rgb(58, 80, 58);
+}
+/* td:nth-child(3) {
+    flex-grow: 2;
+} */
+
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+}
+.header {
+    font-size: larger;
+    text-align: center;
+}
+.table {
+    display: flex;
+    justify-content: center;
+    border: 100px;
+    
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}

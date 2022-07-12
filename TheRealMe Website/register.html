@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./register.css">
+<style>
+        #register:hover {
+        background-color: rgb(102, 131, 102);
+      }
+  </style>
+</head>
+<body>
+
+    <main class="registercontainer" id="registercontainer">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.01bQlL7FMpc4aVcjOC29AQHaE8&pid=Api&P=0&w=271&h=181" alt="image">
+        <h1>Register</h1> 
+        
+        <div id="error" style="color:red;"></div>
+        <form class="contentcontainer" action="personalized.php" method="GET" id="registerform">
+
+            <label for="firstname">Firstname: </label>
+            <input id="firstname" name="firstname" placeholder="firstname" type="text" required/>
+
+            <label for="firstname">Surname: </label>
+            <input id="surname" name="surname" placeholder="surname" type="text" required/>
+
+            <label for="email">Email: </label>
+            <input id="email" name="email" placeholder="@gmail.com" type="email" required/>
+            
+            <label for="phonenumber">Telephone: </label>
+            <input tel="mobile" name="telephone" placeholder="mobile" type="number" required/>
+
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" placeholder="password" text="text"/>
+            Retype-Password: <input type="password" id="confirm-password" name="confirmpassword" placeholder="retype-password"/> 
+            <br/>
+            <div class="buttoncontainer"> <a href="./personalized.php"></a>
+            <button type="submit" id="register" onclick="registerform"> <strong>Sign Up </strong></button>
+            </div>
+        </form>
+    </main>
+    <script src="./register.js"></script>
+</body>
+</html>

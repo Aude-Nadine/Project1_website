@@ -1,0 +1,31 @@
+html,
+body {
+    background-color: rgb(199, 199, 199);
+}
+
+
+.titlecontainer {
+    display: flex;
+    flex-direction: column;
+    color: rgb(27, 75, 27);
+    align-items: center;
+    
+}
+.maintitlecontainer {
+    color: brown;
+    display: flex;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.healthplansection {
+    display:flex;
+    justify-content: center;
+    gap: 15px;
+}
+.healthplansection button {
+    background-color: rgb(161, 56, 56);
+    border-radius: 300px;
+    display: inline-block;
+    width: 100px;
+    
+}

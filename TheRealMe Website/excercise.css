@@ -1,0 +1,35 @@
+html,
+body {
+    background-color: rgb(199, 199, 199);
+}
+
+.header {
+   text-align: center;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.titlecontainer {
+    color: rgb(27, 75, 27);
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.maincontent {
+    flex: 2;
+}
+.asidecontainer {
+    flex: 1;
+    float:right;
+    text-align: center;
+}
+.newslettercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

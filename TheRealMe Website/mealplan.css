@@ -1,0 +1,46 @@
+html {
+    /* height: 100%;
+    width: 100%;
+    margin: 0px; */
+    background-color: rgb(199, 199, 199);
+    
+}
+
+.registercontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(199, 199, 199);
+}
+
+.contentcontainer {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.buttoncontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.job {
+    max-width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+input [type=text] , select{
+    width: 175px;
+    /* padding: 12px 20px; */
+    margin:8px 0 ; 
+    display: inline-block;
+    border: 1px solid;
+    /* border-radius: 4px; */
+}
+
